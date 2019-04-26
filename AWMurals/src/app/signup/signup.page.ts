@@ -36,6 +36,6 @@ export class SignupPage implements OnInit {
   }
 
   gotoLogin() {
-   // this.navCtrl.goBack();
+    this.navCtrl.navigateForward(['/login']);
   }
 }
