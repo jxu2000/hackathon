@@ -20,9 +20,9 @@ firebase.initializeApp({
     messagingSenderId: "1078477850584"
 });
 
-// firebase.firestore().settings({
-//  timestampsInSnapshots: true
-// });
+ firebase.firestore().settings({
+  timestampsInSnapshots: true
+ });
 
 @NgModule({
   declarations: [AppComponent],
