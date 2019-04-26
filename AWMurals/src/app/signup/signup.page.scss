@@ -8,3 +8,17 @@
     width: 100%;
     text-align: center;
 }
+
+ion-content.background{
+    --background: url(../../assets/img/Armstrong.jpg) 0 0/100% 100% no-repeat;
+}
+
+.item.item-trns {
+	border-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	color: red;
+}
+
+.vertical-list {
+    margin-top: 120px;    
+}

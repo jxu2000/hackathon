@@ -5,11 +5,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="background">
 
   <ion-list>
-    <ion-item class="vertical-space">
-      <h1 class="center">AWMurals App</h1>
+    <ion-item class="vertical-space" class="item item-trns text-center">
+      <h1 class="center">AWMurals</h1>
     </ion-item>
     <ion-item>
       <ion-label position="stacked">Email</ion-label>
@@ -21,6 +21,6 @@
     </ion-item>
   </ion-list>
   <ion-button expand="block" color="danger" shape="round" (click)="signup()">Create Account</ion-button>
-
-  <ion-button expand="block" fill="clear" color="danger" (click)="gotoLogin()">Already have an Account? Login Here</ion-button>
+  
+  <ion-button expand="block" color="danger" shape="round" (click)="gotoLogin()">Have an Account? Login Here</ion-button>
 </ion-content>
