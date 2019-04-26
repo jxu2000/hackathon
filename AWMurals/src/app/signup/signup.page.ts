@@ -23,7 +23,7 @@ export class SignupPage implements OnInit {
 
       console.log(userData);
       // Navigate the user to the app page
-     // this.navCtrl.navigateForward(['/mapviewer']);
+      this.navCtrl.navigateForward(['/mapviewer']);
 
     }).catch((err) => {
       this.toastCtrl.create({

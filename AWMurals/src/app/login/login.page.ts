@@ -34,7 +34,7 @@ export class LoginPage implements OnInit {
       console.log(userObject);
       // Navigate the user to the application page
 
-      this.navCtrl.navigateForward(['/mapview']);
+      this.navCtrl.navigateForward(['/mapviewer']);
 
     }).catch((err) => {
 
