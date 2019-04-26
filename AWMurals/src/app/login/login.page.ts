@@ -16,7 +16,7 @@ export class LoginPage implements OnInit {
 
     firebase.auth().onAuthStateChanged((user) => {
       if(user) {
-        this.navCtrl.navigateForward(['/mapview']);
+        this.navCtrl.navigateForward(['/mapviewer']);
       } else {
         // No user is logged in
       }
